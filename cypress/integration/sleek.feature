@@ -1,7 +1,3 @@
-
-## Test cases:
-
-```
 Feature: Sleek Test Cases
 
   Scenario: Business Account deposit or monthly fees table values verification
@@ -24,14 +20,4 @@ Feature: Sleek Test Cases
     And select time zone as "UTC +08:00 China, Hong Kong, Singapore"
     And set time as "11:30 am"
     Then Verify date and time value is correct in Your information section
-```
-
-## Installation
-- Test cases requires [Node.js](https://nodejs.org/) to run.
-- Check out or download the repository `https://github.com/lungovan/sleek.git`
-- `cd sleek`
-- Run `npm install` to install all dependencies 
-## Run test cases
-- `cd sleek`
-- Run command `npm run cy:run` to run tests headless
-- Run command `npm run cy:open` to run tests on other browsers
+        

@@ -1,0 +1,219 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Sleek Test Cases",
+    "line": 1,
+    "id": "sleek-test-cases",
+    "tags": [],
+    "uri": "sleek.feature",
+    "elements": [
+      {
+        "id": "sleek-test-cases;business-account-deposit-or-monthly-fees-table-values-verification",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Business Account deposit or monthly fees table values verification",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to Sleek SG",
+            "result": {
+              "status": "passed",
+              "duration": 3748000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on \"Incorporation\" link",
+            "result": {
+              "status": "passed",
+              "duration": 308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on \"Open a business account\" link",
+            "result": {
+              "status": "passed",
+              "duration": 2383000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Annual / Setup Fees",
+                      "Initial Deposit",
+                      "Virtual Corporate cards",
+                      "Minimum Balance",
+                      "Accounting",
+                      "Corporate Secretary",
+                      "Business Insurance",
+                      "Licensed by MAS*"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "S$0",
+                      "S$1,000",
+                      "Limited",
+                      "S$10,000",
+                      "No",
+                      "No",
+                      "Yes",
+                      "Yes"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "S$35",
+                      "S$1,000",
+                      "Limited",
+                      "S$5,000",
+                      "No",
+                      "No",
+                      "Yes",
+                      "Yes"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "S$0",
+                      "S$0",
+                      "Multiple",
+                      "S$0",
+                      "From S$75/month",
+                      "From S$240/year",
+                      "Yes",
+                      "Yes"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "S$144 (S$12/month)",
+                      "S$0",
+                      "Multiple",
+                      "S$0",
+                      "No",
+                      "No",
+                      "No",
+                      "No"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "S$54",
+                      "S$0",
+                      "Limited",
+                      "S$0",
+                      "No",
+                      "No",
+                      "No",
+                      "Yes"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify Business Account deposit or monthly fees table values",
+            "result": {
+              "status": "passed",
+              "duration": 3964000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sleek-test-cases;schedule-a-call-verification",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Schedule a call verification",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I navigate to Sleek SG",
+            "result": {
+              "status": "passed",
+              "duration": 1658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click on \"Pricing\" link",
+            "result": {
+              "status": "passed",
+              "duration": 2368000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on \"Talk to an expert\" button",
+            "result": {
+              "status": "passed",
+              "duration": 4784000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "select a date \"10\" days from now",
+            "result": {
+              "status": "passed",
+              "duration": 2417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "select time zone as \"UTC +08:00 China, Hong Kong, Singapore\"",
+            "result": {
+              "status": "passed",
+              "duration": 1435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "set time as \"11:30 am\"",
+            "result": {
+              "status": "passed",
+              "duration": 504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Verify date and time value is correct in Your information section",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
